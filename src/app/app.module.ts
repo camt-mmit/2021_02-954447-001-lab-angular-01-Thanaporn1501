@@ -7,7 +7,7 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
 import { ProfileComponent } from './profile/profile.component';
 import { FriendComponent } from './friend/friend.component';
 import { StatusComponent } from './status/status.component';
-
+import {HttpClientModule} from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +18,8 @@ import { StatusComponent } from './status/status.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
