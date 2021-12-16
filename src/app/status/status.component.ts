@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StatusComponent implements OnInit {
 
+  public navigator:Navigator = window.navigator;
+  public date:Date = new Date();
+
   constructor() { }
 
   ngOnInit(): void {
+    return
   }
 
 }

@@ -1,27 +1,12 @@
-้<h2>Status</h2>
-<ul>
-  <li>
-    <b>Current time</b> ::
-  </li>
-  <li>
-    <b>Vendor</b>::
-  </li>
-  <li>
-    <b>User Agent</b> ::
-  </li>
-  <li>
-    <b>Languages</b> ::
-  </li>
-  <li>
-    <b>is Cookie Enable?</b> ::
-  </li>
-  <li>
-    <b>Logical Processors</b> ::
-  </li>
-  <li>
-    <b>Max Touch Points</b> ::
-  </li>
-</ul>
-<!-- <script src="runtime.b4338abc206ccba3.js" type="module"></script>
-<script src="polyfills.717e271e1527734c.js" type="module"></script>
-<script src="main.f3561ff29fee66c0.js" type="module"></script> -->
+<div>
+<h2>Status</h2>
+    <ul>
+      <li><b>Current time</b><span>{{date}}</span></li>
+      <li><b>Vendor</b><span>{{navigator.vendor}}</span></li>
+      <li><b>User Agent</b><span>{{navigator.userAgent}}</span></li>
+      <li><b>Languages</b><span>{{navigator.languages}}</span></li>
+      <li><b>is Cookie Enable?</b><span>{{navigator.cookieEnabled}}</span></li>
+      <li><b>Logical Processors</b><span>{{navigator.hardwareConcurrency}}</span></li>
+      <li><b>Max Touch Points</b><span>{{navigator.maxTouchPoints}}</span></li>
+    </ul>
+</div>

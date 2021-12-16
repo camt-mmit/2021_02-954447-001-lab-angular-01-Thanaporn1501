@@ -15,5 +15,13 @@ nav ul{
   flex-direction: row;
   grid-column-gap: 4px;
   column-gap: 4px;
-  // justify-content: center;
+}
+
+html{
+  margin-top: 2em;
+  padding-left: 30em;
+}
+.bio{
+  width: 60%;
+  text-align: justify;
 }
