@@ -1,0 +1,22 @@
+ul li{
+  display: grid;
+  grid-template-columns: 22ch 1fr 1fr;
+  margin-bottom: 0.5em;
+}
+b::after {
+  content: "::";
+  margin-left: auto;
+  margin-right: 1em;
+  color: rgb(15, 128, 99);
+  font-weight: 700;
+}
+b{
+  display: flex;
+}
+h2{
+  padding-left: 1.5em;
+}
+div{
+  margin-top: 2em;
+  padding-left: 28em;
+}
